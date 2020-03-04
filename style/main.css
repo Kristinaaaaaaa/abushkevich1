@@ -17,10 +17,13 @@ nav ul{
 .column{
     flex-direction: column;
 }
+footer nav, div ul{
+    display: flex;/*обозначаем,что это flex-контейнер*/
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
-*/
+
 
 @media (min-width: 1281px) {
 
