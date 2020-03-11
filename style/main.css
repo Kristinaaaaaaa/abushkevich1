@@ -74,10 +74,12 @@ main > div.container {
     flex: 1 0 auto;
 }
 section {
-
+    flex: 3 0 auto;/* 3- ширина столбца*/
+    padding: 0 15px;
 }
 aside {
-
+flex: 1 0 auto;/* 1- ширина столбца*/
+    padding: 0 15px;
 }
 
 
