@@ -17,7 +17,7 @@ nav ul{
 .column{
     flex-direction: column;
 }
-footer nav, div ul{
+footer > nav{
     display: flex;/*обозначаем,что это flex-контейнер*/
 }
 /*
