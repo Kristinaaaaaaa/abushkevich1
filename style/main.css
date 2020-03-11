@@ -1,87 +1,87 @@
+/* Импорт стилей, шрифтов и иконок */
+/* Сброс CSS */
 @import url("https://marksheet.io/css/reset.css");
-.conteiner{
-    width: 100%;
-        max-width: 1024px;/*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
-        margin: 0 auto;
+
+
+/* Базовые стили */
+html {
+    height: 100%;
 }
-nav ul{
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Предустановки */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;/*обозначаем, что это flex-контейнер*/
-}
-.row{
-    flex-direction: row;
-}
-.column{
-    flex-direction: column;
-}
-footer > nav{
-    display: flex;/*обозначаем,что это flex-контейнер*/
-}
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-
-
-@media (min-width: 1281px) {
-
-  //CSS
-
 }
 
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  //CSS
-
+/* Гибкая верстка */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
 }
 
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  //CSS
-
+/* Шапка сайта */
+header {
+    flex: 0 0 auto;
 }
 
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* Основное содержимое */
+main {
+    display: flex;
+    flex: 1 0 auto;
+}
+main > div.container {
+    flex: 1 0 auto;
+}
+section {
 
-  //CSS
+}
+aside {
 
 }
 
-/*
-  ##Device = Low Resolution Tablets, Mobiles (landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
-@media (min-width: 481px) and (max-width: 767px) {
-
-  //CSS
-
-}
-
-/*
-  ##Device = Most of the Smartphones Mobiles (portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  //CSS
-
+/* Подвал сайта */
+footer {
+    flex: 0 0 auto;
 }
