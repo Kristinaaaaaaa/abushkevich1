@@ -63,6 +63,7 @@ img {
 header {
     flex: 0 0 auto;
     background-color: black;
+    height: 100px;
 }
 
 
@@ -90,4 +91,5 @@ flex: 1 0 auto;/* 1- ширина столбца*/
 footer {
     flex: 0 0 auto;
     background-color: black;
+    height: 200px;
 }
