@@ -64,11 +64,12 @@ header {
     flex: 0 0 auto;
     background-color:darkslateblue;
     height: 100px;
+    color: aliceblue;
 }
 header > div.conteiner{
     height: 100%;
     align-items: center;
-    color: aliceblue;
+
 }
 
 /* Основное содержимое */
