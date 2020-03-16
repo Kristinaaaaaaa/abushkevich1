@@ -62,7 +62,7 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    background-color: black;
+    background-color:darkslateblue;
     height: 100px;
 }
 
@@ -90,6 +90,6 @@ flex: 1 0 auto;/* 1- ширина столбца*/
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
-    background-color: black;
+    background-color:darkslateblue;
     height: 200px;
 }
