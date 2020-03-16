@@ -62,6 +62,7 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
+    background-color: black;
 }
 
 
@@ -69,6 +70,7 @@ header {
 main {
     display: flex;
     flex: 1 0 auto;
+    background-color:azure;
 }
 main > div.container {
     flex: 1 0 auto;
@@ -86,4 +88,5 @@ flex: 1 0 auto;/* 1- ширина столбца*/
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    background-color: black;
 }
