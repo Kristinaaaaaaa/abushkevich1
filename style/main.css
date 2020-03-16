@@ -74,6 +74,7 @@ main {
 }
 main > div.container {
     flex: 1 0 auto;
+    background-color: white;
 }
 section {
     flex: 3 0 auto;/* 3- ширина столбца*/
