@@ -97,6 +97,8 @@ footer {
     flex: 0 0 auto;
     background-color:darkslateblue;
     height: 200px;
-    height: 100%;
     color: aliceblue;
+}
+footer > div.conteiner{
+    height: 100%;
 }
