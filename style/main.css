@@ -65,7 +65,10 @@ header {
     background-color:darkslateblue;
     height: 100px;
 }
-
+header > div.conteiner{
+    height: 100%;
+    align-items: center;
+}
 
 /* Основное содержимое */
 main {
