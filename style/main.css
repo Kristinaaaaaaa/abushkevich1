@@ -58,7 +58,12 @@ img {
     flex: 5;
 }
 
-
+button{
+    height: 50px;
+    /*width:100px;*/
+    background-color: #999;
+    border-radius: 5px;
+}
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
