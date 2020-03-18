@@ -114,7 +114,11 @@ footer nav ul{
     margin-right: 30px;
 }
 
-
+header a,
+footer a{
+    color: black;
+    text-decoration: none;
+}
 
 
 
