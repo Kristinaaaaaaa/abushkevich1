@@ -169,7 +169,7 @@ footer {
     background-color: darkslateblue;
     height: 200px;
     color: aliceblue;
-    line-height: 2em;
+
 
 }
 footer > div.container{
@@ -190,5 +190,6 @@ footer a:hover{
     text-decoration: underline;
 
 }
-
-
+footer li{
+    line-height: 2em;
+}
