@@ -71,7 +71,18 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
+.b-right{
+    border-right: 1px solid #e5e5e5;
+}
+.b-left{
+    border-left: 1px solid #e5e5e5;
+}
+.b-top{
+    border-top: 1px solid #e5e5e5;
+}
+.b-bottom{
+    border-bottom: 1px solid #e5e5e5;
+}
 
 /* Гибкая верстка */
 img {
