@@ -63,9 +63,19 @@ header{
     flex:0 0 auto;
 }
 /* Основное содержимое */
-
-
-
+.moon{
+    flex: 1 0 auto;
+}
+.advantages{
+     flex: 1 0 auto;
+}
+.content{
+     flex: 1 0 auto;
+}
+/* Подвал сайта */
+footer{
+    flex: 0 0 auto;
+}
 
 
 
