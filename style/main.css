@@ -110,10 +110,7 @@ button{
     background-color: #999;
     border-radius: 5px;
 }
-@media(max-width:800px){
-    .container{
-        flex-direction: column;
-    }
+
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
