@@ -79,6 +79,14 @@ header ul{
     display: flex;
     padding-bottom: 20px;
 }
+header li{
+    color: black;
+}
+header li a{
+    padding: 50px 10px 10px 10px;
+    margin-right: 10px;
+    color: antiquewhite;
+}
 /* Основное содержимое */
 .moon{
     flex: 1 0 auto;
