@@ -11,6 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
 .container{
     display: flex;
@@ -30,11 +32,15 @@ nav ul{
     padding: 0;
     list-style: none;
 }
-/* Гибкая верстка */
-img {
-    width: 100%;
-    max-width: 100%;
+strong{
+    font-weight: bold;
 }
+.block{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Гибкая верстка */
 .col-1 {
     flex: 1;
 }
@@ -61,6 +67,17 @@ img {
 /* Шапка сайта */
 header{
     flex:0 0 auto;
+    height: 100px;
+    background-color: khaki;
+    font-size: 0.9em;
+}
+header > div.container{
+    height: 100%;
+    align-items: flex-end;
+}
+header ul{
+    display: flex;
+    padding-bottom: 20px;
 }
 /* Основное содержимое */
 .moon{
