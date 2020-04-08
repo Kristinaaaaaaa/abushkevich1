@@ -55,6 +55,23 @@ strong{
     color: #222222;
     border-radius: 50px;
 }
+.btn::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    width: 19px;
+    height: 16px;
+    background-image: url(/images/right-arrow-dark.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.btn-yellow{
+    background-color: #feca30;
+}
+.btn-yellow:hover{
+    background-color: #fff;
+}
 /* Гибкая верстка */
 .col-1 {
     flex: 1;
