@@ -142,6 +142,34 @@ header li a{
 /* Основное содержимое */
 .moon{
     flex: 1 0 auto;
+    flex-wrap: wrap;
+    background-color: #______;
+    padding: 30px 0;
+}
+.moon-header {
+    width: 300px;
+    margin: 0 5vw;
+    padding: 60px 0;
+}
+.moon h1{
+    margin: 40px 0;
+    font-family: Courier new, monospace;
+    font-weight: bold;
+    font-size: 3.2em;
+    line-height: 50px;
+    color: #fff;
+}
+.moon p{
+    margin-bottom: 50px;
+    padding-left: 5px;
+    line-height: 22px;
+    color: #______;
+    font-size: 1.1em;
+}
+.moon img{
+    width: 100%;
+    max-width: 438px;
+    margin: 30px 0;
 }
 .advantages{
      flex: 1 0 auto;
@@ -153,11 +181,3 @@ header li a{
 footer{
     flex: 0 0 auto;
 }
-
-
-
-
-
-
-
-
