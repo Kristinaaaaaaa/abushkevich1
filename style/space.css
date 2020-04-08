@@ -48,6 +48,12 @@ strong{
     font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 1em;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #222222;
+    border-radius: 50px;
 }
 /* Гибкая верстка */
 .col-1 {
