@@ -188,7 +188,24 @@ header li a{
 }
 .content{
     flex: 1 0 auto;
+    padding: 55px 0;
 }
+.content div {
+    justify-content: space-between;
+}
+.left-column {
+    max-width: 440px;
+    padding: 30px 30px 30px 0;
+}
+.right-column {
+    max-width: 440px;
+    padding: 30px 0;
+}
+.content img {
+    width: 100%;
+    max-width: 440px;
+}
+
 /* Подвал сайта */
 footer{
     flex: 0 0 auto;
