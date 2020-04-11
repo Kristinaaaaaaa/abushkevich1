@@ -235,4 +235,29 @@ header li a{
 /* Подвал сайта */
 footer{
     flex: 0 0 auto;
+    padding: 85px 0 55px 0;
+    background-color: #______;
+    color: #______;
+}
+.copyright {
+    color: #______;
+    padding-top: 100px;
+}
+fotter h3 {
+    margin: 20px 20px 40px 0;
+    padding-bottom: 20px;
+    color: #______;
+    text-transform: uppercase;
+    border-bottom: 1px solid #______;
+}
+fotter h3 a {
+    color: #______;
+    text-decoration: none;
+}
+fotter li {
+    margin-bottom: 20px;
+}
+fotter li a {
+    color: #______;
+    text-decoration: none;
 }
