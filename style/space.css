@@ -205,7 +205,33 @@ header li a{
     width: 100%;
     max-width: 440px;
 }
-
+.content h2 {
+    font-family: Courier new, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.content p {
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+.content ul {
+    margin-left: 25px;
+}
+.content li {
+    position: relative;
+    padding-bottom: 15px;
+}
+.content li::before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #feca30;
+}
 /* Подвал сайта */
 footer{
     flex: 0 0 auto;
