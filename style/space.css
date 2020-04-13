@@ -110,17 +110,17 @@ strong{
 /* Шапка сайта */
 header{
     flex:0 0 auto;
-    height: 100px;
-    background-color: khaki;
+    background-color: #222;
     font-size: 0.9em;
+    font-family: sans-serif;
 }
 header > div.container{
     height: 100%;
-    align-items: flex-end;
+   padding-top: 50px;
 }
 header ul{
     display: flex;
-    padding-bottom: 20px;
+    padding-top: 50px;
 }
 header li{
     color: black;
@@ -133,7 +133,7 @@ header li a{
 }
 .header-icon{
     display: flex;
-    padding: 20px;
+    padding-top: 50px;
     align-items: center;
 }
 .header-icon img{
